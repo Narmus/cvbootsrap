@@ -15,6 +15,7 @@ h1 {
 
 .mountain {
   display: block;
+  max-width: 100%;
 }
 
 /* Bio */
