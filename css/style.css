@@ -12,9 +12,7 @@ h1 {
   padding: 5% 15% 0;
   background-color: #42c2ff;
 }
-
 .mountain {
-  display: block;
   max-width: 100%;
 }
 
@@ -131,10 +129,6 @@ h1 {
 }
 /* Media Adjusters*/
 @media (max-width: 650px) {
-  .mountain {
-    position: relative;
-    right: 30%;
-  }
   .accounting-img {
     width: 80%;
   }
