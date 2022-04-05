@@ -5,6 +5,10 @@ body {
 h1 {
   font-family: "Beau Rivage", cursive;
 }
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
 
 /* Title */
 #title {
