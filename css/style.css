@@ -1,0 +1,155 @@
+body {
+  line-height: 2;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  font-family: "Beau Rivage", cursive;
+}
+
+/* Title */
+#title {
+  text-align: center;
+  padding: 5% 15% 0;
+  background-color: #42c2ff;
+}
+
+.mountain {
+  display: block;
+}
+
+/* Bio */
+#bio {
+  text-align: center;
+  padding: 5% 15%;
+  background-color: #85f4ff;
+}
+.personal-pic {
+  width: 40%;
+  border-radius: 100%;
+}
+.bio-para {
+  padding-top: 5%;
+}
+/* Job Experience */
+#job-experience {
+  text-align: center;
+
+  background-color: #42c2ff;
+}
+.job-carousel {
+  padding: 5% 15%;
+}
+
+.accounting-img {
+  width: 25%;
+  margin-bottom: 10px;
+}
+.carousel-experience {
+  width: 100%;
+  height: 800px;
+}
+/* Education */
+#education {
+  text-align: center;
+  background-color: #85f4ff;
+}
+.education-gif {
+  width: 25%;
+  margin-bottom: 10px;
+}
+.education-carousel {
+  padding: 5% 15%;
+}
+.carousel-education {
+  width: 100%;
+  height: 700px;
+}
+/* Professional Skills */
+#professional-skills {
+  text-align: center;
+  background-color: #42c2ff;
+}
+.carousel-proskill {
+  padding: 5% 15%;
+}
+.stars {
+  font-weight: bolder;
+}
+/* Personal Skills */
+#personal-skills {
+  text-align: center;
+  background-color: #85f4ff;
+}
+.carousel-personalskills {
+  padding: 5% 15%;
+}
+/* Current Pursuits */
+#current-pursuit {
+  text-align: center;
+  background-color: #42c2ff;
+}
+.carousel-pursuit {
+  padding: 1% 15%;
+  height: 110px;
+}
+/* Contact Me */
+#contact-me {
+  text-align: center;
+  padding: 2% 15% 2%;
+}
+.btn {
+  background: #85f4ff;
+  background-image: -webkit-linear-gradient(top, #85f4ff, #42c2ff);
+  background-image: -moz-linear-gradient(top, #85f4ff, #42c2ff);
+  background-image: -ms-linear-gradient(top, #85f4ff, #42c2ff);
+  background-image: -o-linear-gradient(top, #85f4ff, #42c2ff);
+  background-image: linear-gradient(to bottom, #85f4ff, #42c2ff);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+.btn:hover {
+  background: #42c2ff;
+  background-image: -webkit-linear-gradient(top, #42c2ff, #85f4ff);
+  background-image: -moz-linear-gradient(top, #42c2ff, #85f4ff);
+  background-image: -ms-linear-gradient(top, #42c2ff, #85f4ff);
+  background-image: -o-linear-gradient(top, #42c2ff, #85f4ff);
+  background-image: linear-gradient(to bottom, #42c2ff, #85f4ff);
+  text-decoration: none;
+}
+.contact-icons {
+  padding: 5% 2%;
+  font-size: 3rem;
+}
+/* Media Adjusters*/
+@media (max-width: 650px) {
+  .mountain {
+    position: relative;
+    right: 30%;
+  }
+  .accounting-img {
+    width: 80%;
+  }
+  .carousel-experience {
+    height: 900px;
+  }
+  .education-gif {
+    width: 80%;
+  }
+  .carousel-education {
+    height: 600px;
+  }
+  .carousel-proskill {
+    height: 150px;
+  }
+  .carousel-personalskills {
+    height: 150px;
+  }
+}
